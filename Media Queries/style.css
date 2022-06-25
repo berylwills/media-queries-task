@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+    align-items: center;
+}
+main{
+    display: grid;
+    background-color: pink;
+    grid-template-areas: 
+    'a a a b b '
+    'a a a c c ';
+    text-align: center;
+    width: 80%;
+    height: 50vh;
+    margin: 120px;
+    place-content: center;
+}
+.free{
+    font-weight: bold;
+}
+
+input{
+    margin: 5px ;
+}
+div{
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.a{
+    color: white;
+    grid-area: a;
+}
+
+.b{
+    background-color: blue;
+    grid-area: b;
+    width: 400px;
+    font-size: 15px;
+}
+.c{
+    background-color: white;
+    grid-area: c;
+    width: 400px;
+
+}
+.one{
+    font-size: 10px;
+}
+.two{
+    color: red;
+    font-size: 10px;
+}
+.six{
+    background-color: rgb(60, 112, 60);
+    border-radius: 4px;
+    color: white;
+    align-content: center;
+    padding: 10px;
+    font-size: 10px;
+}
